@@ -3,7 +3,7 @@ import snowflake.connector
 from configparser import ConfigParser
 config=ConfigParser()
 
-config.read(r'C:\Users\kujjwal\.ipynb_checkpoints\config.ini')
+config.read('config.ini')
 user=config['database']['user']
 password=config['database']['password']
 account=config['database']['account']
