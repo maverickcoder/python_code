@@ -3,7 +3,7 @@ import snowflake.connector
 from configparser import ConfigParser
 config=ConfigParser()
 
-config.read('config.ini')
+config.read('Config.ini')
 user=config['database']['user']
 password=config['database']['password']
 account=config['database']['account']
