@@ -12,8 +12,7 @@ database=config['database']['database']
 schema=config['database']['schema']
  
 
-print(config['metadata']['table1']['tablename'])
-
+ 
  
 conn = snowflake.connector.connect(
             user=user,
